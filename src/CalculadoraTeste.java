@@ -14,6 +14,7 @@ public class CalculadoraTeste {
 		assertEquals(3, soma);
 	}
 	
+	
 	@Test 
 	public void deveriaMultiplicarDoisValoresPassados() throws Exception {  
 		int valorA = 4; 
