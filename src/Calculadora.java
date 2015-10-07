@@ -7,6 +7,7 @@ public class Calculadora {
 
 	public int multiplica(int valorA, int valorB) {
 		return valorA * valorB; 
+		
 	}
 	
 }
