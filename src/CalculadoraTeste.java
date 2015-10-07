@@ -14,14 +14,15 @@ public class CalculadoraTeste {
 		assertEquals(3, soma);
 	}
 	
+	
 	@Test 
-	public void deveriaSubtrairDoisValoresPassados() throws Exception {  
+	public void deveriaMultiplicarDoisValoresPassados() throws Exception {  
 		int valorA = 4; 
 		int valorB = 1; 
 	 
 		Calculadora calculadora = new Calculadora(); 
-		int subtracao = calculadora.subtrai(valorA, valorB);
-		assertEquals(3, subtracao);
+		int subtracao = calculadora.multiplica(valorA, valorB);
+		assertEquals(4, subtracao);
 	}
 
 }
